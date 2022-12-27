@@ -1,1 +1,1 @@
-Design Patterns are typical solutions to commonly occurring problems in software design.
+Design Patterns are general, reusable solutions to commonly occurring problems within in given context in software design.
