@@ -1,11 +1,11 @@
 package solid.ocp;
 
-class ScienceDistinctionDecider implements DistinctionDesider {
+class ScienceDistinctionDecider implements DistinctionDecider {
 
     @Override
     public void evaluateDistinction(Student student) {
         if(student.score > 80) {
-            System.out.println("student.regNumber + \" has received distinction in science\"");
+            System.out.println(student.regNumber + " has received distinction in science");
         }
     }
 
