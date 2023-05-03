@@ -13,6 +13,12 @@ public class Client {
             System.out.println(student);
         }
         
+        System.out.println("===Distinctions:===");
+        DistinctionDecider distinctionDecider = new DistinctionDecider();
+        for (Student student : enrolledStudent) {
+            distinctionDecider.evaluateDistinction(student);
+        }
+        
     }
     
     private static List<Student> enrollStudents(){

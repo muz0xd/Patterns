@@ -10,12 +10,12 @@ public class DistinctionDecider {
     public void evaluateDistinction(Student student) {
         if (science.contains(student.department)) {
             if (student.score > 80) {
-                System.out.println(student.regNumber + "has received distinction in science");
+                System.out.println(student.regNumber + " has received distinction in science");
             }
         }
         if (arts.contains(student.department)) {
             if (student.score > 70) {
-                System.out.println(student.regNumber + "has received distinction in arts");
+                System.out.println(student.regNumber + " has received distinction in arts");
             }
         }
         
