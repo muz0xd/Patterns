@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Client {
     public static void main(String args[]) {
-        System.out.println("***Demo withiout OCP***");
+        System.out.println("***A demo that follows the OCP***");
         List<Student> scienceStudent = enrollScienceStudents();
         List<Student> artsStudent = enrollArtsStudents();
         
