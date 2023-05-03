@@ -1,5 +1,5 @@
 package solid.ocp;
 
-interface DistinctionDesider {
+interface DistinctionDecider {
     void evaluateDistinction(Student student);
 }
