@@ -1,0 +1,23 @@
+package solid.ocp_without;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class DistinctionDecider {
+    List<String> science = Arrays.asList("Comp.Sc.", "Physics");
+    List<String> arts = Arrays.asList("History", "English");
+    
+    public void evaluateDistinction(Student student) {
+        if (science.contains(student.department)) {
+            if (student.score > 80) {
+                System.out.println(student.regNumber + "has received distinction in science");
+            }
+        }
+        if (arts.contains(student.department)) {
+            if (student.score > 70) {
+                System.out.println(student.regNumber + "has received distinction in arts");
+            }
+        }
+        
+    };
+}
