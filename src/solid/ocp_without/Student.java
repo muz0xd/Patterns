@@ -14,7 +14,7 @@ public class Student {
     public String toString() {
         return ("Name: " + name +
                 "\nReg number: " + regNumber +
-                "\n Dept: " + department +
+                "\nDept: " + department +
                 "\nMarks: " + score + 
                 "\n***********");
     }    
