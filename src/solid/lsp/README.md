@@ -1,0 +1,1 @@
+**Liskov Substitution Principle: You should be able to substitute a parent (or base) type with a subtype**

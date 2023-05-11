@@ -1,0 +1,1 @@
+**Single Resposibility Principle: A class should have one reason to change. **
