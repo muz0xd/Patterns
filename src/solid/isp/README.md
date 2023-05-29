@@ -1,0 +1,1 @@
+**Interface Segregation Principle: A client should not depend on a method that it does not use**
