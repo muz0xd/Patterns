@@ -20,7 +20,7 @@ public class Employee implements Cloneable {
     
     public Employee cloneEmployee() throws CloneNotSupportedException {
         // For the shallow copy
-//         return (Employee) this.clone();
+        // return (Employee) this.clone();
         
         // For the deep copy
         Employee employee = (Employee) this.clone();
